@@ -1,0 +1,62 @@
+
+
+header {
+  background-color: rgb(202, 239, 207);
+  text-align: center;
+}
+.portada {
+    width: 100%; 
+    }
+    .logo-sena {
+      width: 10%; /* Hace que la imagen ocupe todo el ancho disponible */
+      height: auto; /* Mantiene la proporción de la imagen */
+    }
+    .logo-club {
+      width: 50%;  /* El logo ocupará el 50% del contenedor */
+      height: auto;  /* Mantiene la proporción */
+    }
+    
+  body {
+      background-color: rgb(176, 182, 172); /* Color RGB */
+    }
+  
+  article {
+    border: 1px solid #950303;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    background-color: #cff2c6;
+  }
+ 
+
+nav{
+  background-color:black;
+  padding: 15px;
+  text-align: center;
+}
+    
+    nav a {
+      padding-bottom: 5px; /* Aumentar el espacio alrededor del texto */
+      text-decoration: none; /* Eliminar el subrayado del enlace */
+      color: white; /* Color del texto del enlace */
+      text-align: center;
+      margin: 15px;
+      font-size: 16px;
+    }
+  
+    nav a:hover{
+      color: #950303;
+      border-bottom:  2px solid #950303;
+    }
+ .img-noticia{
+  width: 50%;
+  height: auto;
+ }
+    footer{
+      background-color: rgb(191, 231, 236);
+      text-align: center;
+             padding: 20px;
+             width: 100%;
+             bottom: 0;
+            
+            }
